@@ -1,4 +1,4 @@
-package com.theotherian.hibernate.subselect.entities;
+package com.theotherian.hibernate.joinwithmaxresults.entities;
 
 import java.util.List;
 
@@ -44,7 +44,7 @@ public class Person {
    * This relationship demonstrates the different ways the join can be mapped
    * and is separated by comments for 'groups' of annotations
    */
-// uncomment the next two lines for eager/join  
+// uncomment the next two lines for eager/join 
 //  @OneToMany(fetch = FetchType.EAGER, mappedBy = "person")
 //  @Fetch(FetchMode.JOIN)
 // uncomment the next three lines for eager/join with join column

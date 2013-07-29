@@ -1,4 +1,4 @@
-package com.theotherian.hibernate.subselect;
+package com.theotherian.hibernate.joinwithmaxresults;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.hibernate.classic.Session;
 import org.hibernate.criterion.Order;
 
 import com.theotherian.hibernate.HibernateUtil;
-import com.theotherian.hibernate.subselect.entities.Person;
-import com.theotherian.hibernate.subselect.entities.Thing;
+import com.theotherian.hibernate.joinwithmaxresults.entities.Person;
+import com.theotherian.hibernate.joinwithmaxresults.entities.Thing;
 
 public class Example {
   

@@ -31,8 +31,8 @@
     <!-- Drop and re-create the database schema on startup -->
     <property name="hbm2ddl.auto">create-drop</property>
 
-    <mapping class="com.theotherian.hibernate.subselect.entities.Person" />
-    <mapping class="com.theotherian.hibernate.subselect.entities.Thing" />
+    <mapping class="com.theotherian.hibernate.joinwithmaxresults.entities.Person" />
+    <mapping class="com.theotherian.hibernate.joinwithmaxresults.entities.Thing" />
 
   </session-factory>
 

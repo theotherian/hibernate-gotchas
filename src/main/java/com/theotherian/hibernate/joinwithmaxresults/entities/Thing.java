@@ -1,4 +1,4 @@
-package com.theotherian.hibernate.subselect.entities;
+package com.theotherian.hibernate.joinwithmaxresults.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
